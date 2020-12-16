@@ -10,9 +10,9 @@ diset tpcc mysql_pass 12345678
 diset tpcc mysql_storage_engine innodb
 print dict
 diset tpcc mysql_driver timed
-diset tpcc mysql_rampup 5
-diset tpcc mysql_duration 2
+#diset tpcc mysql_rampup 1
+#diset tpcc mysql_duration 1
 vuset logtotemp 1
 loadscript
-vuset vu 156
+vuset vu 96
 vurun
